@@ -84,9 +84,6 @@ urlpatterns += [
     # Note that for any of the various homepage patterns above, you'll
     # need to use the ``SITE_PREFIX`` setting as well.
     # ("^%s/" % settings.SITE_PREFIX, include("mezzanine.urls"))
-    
-    path('ckeditor/', include('ckeditor_uploader.urls')),
-    
 ]
 
 # Adds ``STATIC_URL`` to the context of error pages, so that error
