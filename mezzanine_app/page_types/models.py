@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.db import models
 from mezzanine.pages.models import Page
 
@@ -8,7 +9,7 @@ from mezzanine.pages.models import Page
 # case, date of birth.
 
 class Author(Page):
-    dob = models.DateField("Date of birth", null=True)
+    dob = models.DateField("Däte of birth", null=True)
 
 class Book(models.Model):
     author = models.ForeignKey("Author", on_delete=models.CASCADE)
